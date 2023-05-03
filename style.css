@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  color: aqua;
+  background-color: bisque;
+}
+
+.some {
+  background-color: blue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  width: 40%;
+}
+
+/* STYLING DIV */
+
+.div-heading {
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.sub-div-heading {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.inside-div-para {
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5px;
+  margin-bottom: 5%;
+}
+
+.div-text-content {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  background-color: blueviolet;
+}
