@@ -2,9 +2,13 @@
 :root {
   --font-style: "Nunito Sans", sans-serif;
 }
-
 * {
   box-sizing: border-box;
+}
+
+body {
+  background: #131315;
+  font-family: var(--font-style);
 }
 
 .login-box {
@@ -17,4 +21,11 @@
   background: #242026;
   box-shadow: 0 15px 25px rgba(143, 124, 236, 0.7);
   border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
 }
